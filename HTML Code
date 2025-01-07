@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe-Adda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav">
+            <h2 id="brand-name">Recipes-Adda 24*7</h2>
+            <ul class="nav-list">
+                <li id="home">Home</li>
+                <li id="about">About</li>
+                <li id="recipes">Recipes</li>
+                <li id="contact">Contact</li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="container">
+            <section class="main-sec">
+                <h2>
+                    Welcome to our Recipes-Adda 24*7 !
+                </h2>
+                
+                <p>
+                    Search Mouth watering Recipes to satisfy your craving... 
+                </p>
+
+                <form action="#" id="search-box">
+                    <input type="text" placeholder="Search favourite Recipes"/>
+                    <button type="submit">Search</button>
+                </form>
+            </section>
+        </div>
+
+        <section class="recipes">
+            <h2 id="featured-recipes">Featured Recipes</h2>
+            <div class="recipes-sec">
+                <div class="recipes-cards">
+                    <img src="images/dish-1.jpg" alt="Dahi-cherry(Mix)">
+                    <h2>Dahi-Strawberry</h2>
+                    <p>Dahi-Strawberry is a traditional dish from Odisha, India, typically enjoyed as a breakfast or snack.</p>
+                    <a href="#">View More</a>
+                </div>
+
+                <div class="recipes-cards">
+                    <img src="images/dish-2.jpg" alt="Egg-Curry">
+                    <h2>Egg-Curry</h2>
+                    <p>Egg curry is a popular dish in many South Asian cuisines,
+                         particularly in India.</p>
+                    <a href="#">View More</a>
+                </div>
+                <div class="recipes-cards">
+                    <img src="images/dish-3.jpg" alt="Grilled-Chicken-Lollypop">
+                    <h2>Grilled-Chicken-Lollypop</h2>
+                    <p>Grilled Chicken Lollipop is a popular appetizer, particularly in 
+                        Indian and Chinese cuisines.</p>
+                    <a href="#">View More</a>
+                </div>
+                <div class="recipes-cards">
+                    <img src="images/dish-4.jpg" alt="Dry herbs Salad">
+                    <h2>Dry Herbs Salad</h2>
+                    <p>Herb salad is a fresh, light salad made primarily from various fresh 
+                        herbs rather than leafy greens. Common herbs used include parsley, basil, mint, cilantro, dill, and tarragon.</p>
+                    <a href="#">View More</a>
+                </div>
+                <div class="recipes-cards">
+                    <img src="images/dish-6.jpeg" alt="MotiChur Laddo">
+                    <h2>Motichur Laddo</h2>
+                    <p>Motichur Laddo is a traditional Indian sweet made from tiny, round 
+                        boondi (small fried gram flour balls) that are soaked in sugar syrup
+                         and then shaped into round balls.</p>
+                    <a href="#">View More</a>
+                </div>
+                <div class="recipes-cards">
+                    <img src="images/dish-7.jpeg" alt="Gulab Jamun">
+                    <h2>Gulab Jamun</h2>
+                    <p>Gulab Jamun is a popular Indian dessert made from deep-fried dough 
+                        balls soaked in a fragrant sugar syrup. The dough is typically made 
+                        from milk powder, flour, ghee (clarified butter)</p>
+                    <a href="#">View More</a>
+                </div>
+                <div class="recipes-cards">
+                    <img src="images/dish-8.jpg" alt="Roadted Fish-Salad">
+                    <h2>Roasted Fish-Salad</h2>
+                    <p>Roasted Fish Salad is a healthy and flavorful dish that combines 
+                        roasted or grilled fish with fresh vegetables and greens.</p>
+                    <a href="#">View More</a>
+                </div>
+                <div class="recipes-cards">
+                    <img src="images/dish-9.jpeg" alt="Chocklate Bread Burfi">
+                    <h2>Chocklate Bread Burfi</h2>
+                    <p>Chocolate Bread Burfi is a fusion Indian sweet made with bread,
+                         cocoa powder or melted chocolate, and sweetened condensed milk.</p>
+                    <a href="#">View More</a>
+                </div>
+                <div class="recipes-cards">
+                    <img src="images/dish-10.jpeg" alt="Kaju-Badam Burfi">
+                    <h2>Kaju-Badam Burfi</h2>
+                    <p>Kaju-Badam Burfi is a rich and delicious Indian sweet made
+                        with a combination of cashews (kaju), almonds (badam), sugar, and ghee.</p>
+                    <a href="#">View More</a>
+                </div>
+                <div class="recipes-cards">
+                    <img src="images/dish-11.jpeg" alt="Malai Cream-Chop">
+                    <h2>Malai Cream-Chop</h2>
+                    <p>Malai Cream Chop is a popular Bengali dessert made from creamy, rich 
+                        malai (clotted cream) and stuffed inside a crispy, golden shell.</p>
+                    <a href="#">View More</a>
+                </div>
+                <div class="recipes-cards">
+                    <img src="images/dish-12.jpeg" alt="Indian Samosa">
+                    <h2>Indian Samosa</h2>
+                    <p>An Indian samosa is a popular snack made of a crispy, 
+                        triangular pastry shell filled with a mixture of mashed potatoes,
+                         peas, and variety of spices </p>
+                    <a href="#">View More</a>
+                </div>
+                <div class="recipes-cards">
+                    <img src="images/dish-13.jpeg" alt="Balusahi">
+                    <h2>Balusahi</h2>
+                    <p>Balusahi is a traditional Indian sweet, popular in Odisha and
+                        parts of Bihar. It is a deep-fried pastry from a dough 
+                        of wheat flour, sugar, ghee and cardamom</p>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-details">
+            <h1>Recipes-Adda<br/>24*7</h1>
+            <div class="footer-about">
+                <h2>Are You Ready to cook ?</h2>
+                <p>
+                    Sign up for our weekly newsletters!
+                </p>
+                <form action="#"  id="sign-up-email">
+                    <input type="text" placeholder="Enter Your E-mail"/>
+                    <button>SIGN UP</button>
+                </form>
+                            
+            </div>
+            <div class="copy">
+                <p>
+                    Copyright &copy; 2024 Recipes-Adda 24*7. All Rights Reserved.
+                </p>
+            </div>
+            
+        </div>
+    </footer>
+
+</body>
+</html>
